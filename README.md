@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Dark-Walker Project
+# 🕵️‍♂️ Dark-Walker
 
 **Version:** `1.0.0`
 
