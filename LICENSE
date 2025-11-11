@@ -1,0 +1,191 @@
+MIT License
+
+Copyright (c) 2025 Subrat Panda (subrat243)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+───────────────────────────────────────────────────────────────────────────────
+
+## Dark-Walker License Information
+
+**Project:** Dark Web Monitoring Tool
+**Version:** 1.0.0
+**Author:** Subrat Panda
+**License:** MIT
+**Year:** 2025
+
+───────────────────────────────────────────────────────────────────────────────
+
+### License Summary
+
+Dark-Walker is released under the MIT License, one of the most permissive and
+widely-used open-source licenses. This means:
+
+✅ **You can:**
+   • Use the software for any purpose (commercial or non-commercial)
+   • Copy, modify, and distribute the software
+   • Include the software in proprietary applications
+   • Use the software privately
+
+✅ **You must:**
+   • Include a copy of the license and copyright notice
+   • Acknowledge the original author
+
+❌ **You cannot:**
+   • Hold the author liable for any damages
+   • Claim the software is yours without attribution
+
+### Conditions of Use
+
+1. **Attribution Required**
+   Include the above copyright notice and license text in any copies or
+   substantial portions of the software.
+
+2. **No Liability**
+   The software is provided "AS IS" without warranty of any kind. The author
+   is not responsible for any damages, losses, or issues arising from the use
+   or misuse of this software.
+
+3. **Redistribution**
+   If you redistribute the software, you must:
+   • Include a copy of this license
+   • Include the original copyright notice
+   • Document any modifications you made
+
+### Important Legal Notice
+
+This software is provided for legitimate security research and monitoring
+purposes only. Users are responsible for ensuring their use complies with:
+
+   ⚖️ All applicable local, state, and federal laws
+   ⚖️ All applicable international laws and regulations
+   🔐 Data protection and privacy laws (GDPR, CCPA, etc.)
+   🔒 Computer fraud and abuse legislation
+   📋 Terms of service of platforms being monitored
+   ✅ Ethical guidelines and responsible disclosure practices
+
+### Disclaimer
+
+The author and contributors are NOT responsible for:
+   • Unauthorized access to computer systems
+   • Illegal monitoring or surveillance activities
+   • Data breaches or security incidents
+   • Misuse of this software for malicious purposes
+   • Violations of applicable laws or regulations
+
+Users assume all responsibility for their use of this software.
+
+### Permitted Uses
+
+This software is intended for use by:
+   ✓ Security researchers and professionals
+   ✓ Organizations monitoring their own infrastructure
+   ✓ Cybersecurity teams conducting authorized assessments
+   ✓ Law enforcement (where legally authorized)
+   ✓ Authorized threat intelligence gathering
+
+### Prohibited Uses
+
+This software MUST NOT be used for:
+   ✗ Unauthorized access to computer systems or networks
+   ✗ Illegal surveillance or monitoring
+   ✗ Harassment or cyberstalking
+   ✗ Identity theft or fraud
+   ✗ Data theft or exfiltration
+   ✗ Any illegal activity whatsoever
+
+### Third-Party Dependencies
+
+This project uses the following open-source libraries:
+
+   • requests (Apache 2.0)
+   • beautifulsoup4 (MIT)
+   • stem (LGPL 3.0)
+   • pysocks (BSD)
+   • colorama (BSD)
+   • tabulate (MIT)
+   • python-dotenv (BSD 3-Clause)
+   • urllib3 (MIT)
+   • validators (MIT)
+   • selenium (Apache 2.0)
+   • aiohttp (Apache 2.0)
+
+See requirements.txt for specific versions. Each dependency retains its
+original license terms.
+
+### Contributing
+
+When contributing to Dark-Walker, you agree that:
+   • Your contributions will be licensed under the MIT License
+   • You have the right to contribute the code
+   • You will not introduce code with incompatible licenses
+
+### Modification Notice
+
+If you modify this software, you MUST:
+   1. Include a copy of this license
+   2. Document your modifications
+   3. Keep the original copyright notice visible
+   4. Clearly state that you modified the software
+
+### Distribution
+
+When distributing Dark-Walker or derivatives:
+   1. Include a copy of this LICENSE file
+   2. Include the DOCUMENTATION.md file
+   3. Include a copy of requirements.txt
+   4. Retain all copyright notices and disclaimers
+   5. Document any modifications clearly
+
+### Contact & Support
+
+For questions about this license or the software:
+   📧 Email: (contact information as provided by author)
+   🌐 Repository: https://github.com/subrat243/Dark-Walker
+   📝 Issues: Report via GitHub Issues
+
+### Changes to License
+
+The author reserves the right to change this license in future versions.
+Your use of older versions will continue under their original license terms.
+
+### Effective Date
+
+This license is effective as of November 12, 2025, and applies to all versions
+of Dark-Walker unless otherwise specified.
+
+───────────────────────────────────────────────────────────────────────────────
+
+## Summary
+
+Dark-Walker is free and open-source software licensed under the MIT License.
+You are free to use, modify, and distribute it, provided you include the
+license and copyright notice and acknowledge any modifications.
+
+However, **use it responsibly and legally**. The author is not liable for
+any misuse or damages resulting from this software.
+
+**Remember:** With great power comes great responsibility. Use Dark-Walker
+only for legitimate, authorized security research and monitoring.
+
+───────────────────────────────────────────────────────────────────────────────
+
+**License Version:** 1.0
+**Last Updated:** November 12, 2025
+**Author:** Subrat Panda (subrat243)
