@@ -1,191 +1,168 @@
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║               ✅ DARK-WALKER PROJECT - CONSOLIDATED DOCUMENTATION            ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
+# 🕵️‍♂️ Dark-Walker Project
 
-PROJECT STATUS: READY TO USE
-VERSION: 1.0.0
-CREATED: November 12, 2025
+**Version:** `1.0.0`
 
-═══════════════════════════════════════════════════════════════════════════════
+> 🚀 **Dark-Walker** is a powerful, production-ready **Dark Web Monitoring Tool** designed to scan hidden services and Tor-based search engines for specific strings or patterns.
 
-📚 SINGLE MASTER DOCUMENTATION FILE CREATED
-───────────────────────────────────────────────────────────────────────────────
+---
 
-✅ All documentation consolidated into ONE file:
-   
-   📄 DOCUMENTATION.md (Complete Guide)
+## 📖 Overview
 
-This file contains:
-  ✓ Quick Start (3 steps)
-  ✓ Installation Guide (all platforms)
-  ✓ Configuration Guide
-  ✓ Usage Examples (CLI & Python API)
-  ✓ Complete API Reference
-  ✓ Project Structure
-  ✓ Advanced Configuration
-  ✓ Troubleshooting Guide
+All documentation has been consolidated into a single master file:
 
-═══════════════════════════════════════════════════════════════════════════════
+### 📄 `DOCUMENTATION.md`
 
-📁 CLEANED PROJECT STRUCTURE
-───────────────────────────────────────────────────────────────────────────────
+Contains everything you need to know:
 
+* ✅ Quick Start (3 Steps)
+* ⚙️ Installation & Configuration Guide
+* 💻 Usage (CLI & Python API)
+* 🧠 Complete API Reference
+* 🏗️ Project Structure
+* 🔧 Advanced Configuration
+* 🆘 Troubleshooting Guide
+
+---
+
+## 📂 Project Structure
+
+```bash
 Dark-Walker/
 │
-├── 📄 DOCUMENTATION.md .................. ALL DOCUMENTATION (MASTER FILE)
+├── 📄 DOCUMENTATION.md              # Master documentation file
 │
-├── 💻 SOURCE CODE (src/)
+├── 💻 src/                          # Source code modules
 │   ├── __init__.py
-│   ├── config.py              ─── Configuration
-│   ├── logger.py              ─── Logging
-│   ├── pattern_scanner.py     ─── Pattern Detection
-│   ├── dark_web_crawler.py    ─── Web Crawler
-│   ├── monitor.py             ─── Orchestrator
-│   └── cli.py                 ─── CLI Interface
+│   ├── config.py                    # Configuration
+│   ├── logger.py                    # Logging
+│   ├── pattern_scanner.py           # Pattern Detection
+│   ├── dark_web_crawler.py          # Web Crawler
+│   ├── monitor.py                   # Orchestrator
+│   └── cli.py                       # CLI Interface
 │
-├── 🧪 TESTS (tests/)
-│   └── test_monitor.py        ─── Unit Tests
+├── 🧪 tests/
+│   └── test_monitor.py              # Unit Tests
 │
-├── 📂 AUTO-CREATED FOLDERS
-│   ├── logs/                  ─── Application Logs
-│   ├── results/               ─── Monitoring Results
-│   ├── config/                ─── Configuration
-│   └── .git/                  ─── Git Repository
+├── 📂 auto-created folders
+│   ├── logs/                        # Application logs
+│   ├── results/                     # Monitoring results
+│   ├── config/                      # Configuration files
+│   └── .git/                        # Git repository
 │
-├── ⚙️ CONFIGURATION
-│   ├── .env.example           ─── Configuration Template
-│   ├── requirements.txt       ─── Python Dependencies
-│   └── main.py                ─── Entry Point
+├── ⚙️ configuration
+│   ├── .env.example                 # Environment template
+│   ├── requirements.txt             # Dependencies
+│   └── main.py                      # Entry point
 │
-└── 📜 EXAMPLES
-    └── examples.py            ─── Code Examples
+└── 📜 examples/
+    └── examples.py                  # Example scripts
+```
 
-═══════════════════════════════════════════════════════════════════════════════
+---
 
-🎯 QUICK START
-───────────────────────────────────────────────────────────────────────────────
+## 🚀 Quick Start
 
-STEP 1: Install Dependencies
-  $ pip install -r requirements.txt
+### Step 1: Install Dependencies
 
-STEP 2: Configure
-  $ copy .env.example .env
+```bash
+pip install -r requirements.txt
+```
 
-STEP 3: Use
-  $ python main.py monitor
+### Step 2: Configure
 
-═══════════════════════════════════════════════════════════════════════════════
+```bash
+cp .env.example .env
+```
 
-📖 WHERE TO FIND INFORMATION
-───────────────────────────────────────────────────────────────────────────────
+### Step 3: Run the Tool
 
-All information is in: DOCUMENTATION.md
-
-  🔍 Quick Start
-     └─ Lines 1-30
-
-  📥 Installation
-     └─ Lines 31-130
-     
-  ⚙️ Configuration
-     └─ Lines 131-230
-     
-  💻 Usage (CLI & API)
-     └─ Lines 231-400
-     
-  📚 API Reference
-     └─ Lines 401-550
-     
-  🏗️ Project Structure
-     └─ Lines 551-650
-     
-  🔧 Advanced Configuration
-     └─ Lines 651-800
-     
-  🆘 Troubleshooting
-     └─ Lines 801-900
-
-═══════════════════════════════════════════════════════════════════════════════
-
-✨ WHAT'S INCLUDED
-───────────────────────────────────────────────────────────────────────────────
-
-✅ Complete Dark Web Monitoring Tool
-   • 7 Production Python Modules
-   • 2000+ Lines of Code
-   
-✅ Pattern Detection Engine
-   • 7+ Built-in Patterns
-   • Custom Regex Support
-   
-✅ Dark Web Integration
-   • 4 Search Engines
-   • Hidden Wiki Access
-   • Tor Proxy Support
-   
-✅ Multiple Interfaces
-   • Command-Line Interface (6 commands)
-   • Python API (Full-featured)
-   
-✅ Export Formats
-   • JSON (Structured)
-   • CSV (Spreadsheet)
-   • TXT (Human Readable)
-   
-✅ Complete Documentation
-   • ONE Master File (DOCUMENTATION.md)
-   • 900+ Lines of Guides
-   • All Examples Included
-   
-✅ Testing & Examples
-   • 8+ Unit Tests
-   • 5 Working Examples
-
-═══════════════════════════════════════════════════════════════════════════════
-
-📊 PROJECT STATISTICS
-───────────────────────────────────────────────────────────────────────────────
-
-Source Code:        7 modules, 2000+ lines
-Documentation:      1 file, 900+ lines
-Tests:              8+ test cases
-Examples:           5 working examples
-Total Files:        15 files (down from 25)
-Configuration:      .env system with 12+ options
-
-═══════════════════════════════════════════════════════════════════════════════
-
-🚀 CLI COMMANDS QUICK REFERENCE
-───────────────────────────────────────────────────────────────────────────────
-
-python main.py init
-  Initialize the monitoring tool
-
+```bash
 python main.py monitor
-  Monitor dark web with default keywords
+```
 
-python main.py monitor -q "search term" -e ahmia torch
-  Monitor with specific query and engines
+---
 
-python main.py site http://example.onion
-  Monitor a specific onion site
+## 📚 Documentation Index
 
-python main.py patterns
-  List all search patterns
+| Section                   | Lines   | Description                    |
+| ------------------------- | ------- | ------------------------------ |
+| 🔍 Quick Start            | 1–30    | Setup & run in 3 steps         |
+| 📥 Installation           | 31–130  | Platform-specific instructions |
+| ⚙️ Configuration          | 131–230 | Environment & pattern settings |
+| 💻 Usage (CLI & API)      | 231–400 | Examples & commands            |
+| 📚 API Reference          | 401–550 | All functions and classes      |
+| 🏗️ Project Structure     | 551–650 | Folder and file overview       |
+| 🔧 Advanced Configuration | 651–800 | Custom regex, engines, etc.    |
+| 🆘 Troubleshooting        | 801–900 | Common issues & fixes          |
 
-python main.py add-pattern "regex" -n "name"
-  Add custom regex pattern
+---
 
-python main.py info
-  Show configuration information
+## ✨ Features
 
-═══════════════════════════════════════════════════════════════════════════════
+✅ **Complete Dark Web Monitoring Tool**
 
-🐍 PYTHON API QUICK REFERENCE
-───────────────────────────────────────────────────────────────────────────────
+* 7 production modules
+* 2000+ lines of code
 
+✅ **Pattern Detection Engine**
+
+* 7+ built-in patterns
+* Supports custom regex
+
+✅ **Dark Web Integration**
+
+* 4 search engines
+* Hidden Wiki access
+* Tor proxy support
+
+✅ **Interfaces**
+
+* Command-Line Interface (CLI)
+* Python API
+
+✅ **Export Formats**
+
+* JSON
+* CSV
+* TXT
+
+✅ **Testing & Examples**
+
+* 8+ unit tests
+* 5 working examples
+
+---
+
+## 📊 Project Statistics
+
+| Component      | Count     | Description        |
+| -------------- | --------- | ------------------ |
+| Source Code    | 7 modules | 2000+ lines        |
+| Documentation  | 1 file    | 900+ lines         |
+| Tests          | 8+        | Unit test cases    |
+| Examples       | 5         | Functional samples |
+| Config Options | 12+       | `.env` system      |
+| Total Files    | 15        | Down from 25       |
+
+---
+
+## 🧰 CLI Commands Reference
+
+| Command                                                  | Description                         |
+| -------------------------------------------------------- | ----------------------------------- |
+| `python main.py init`                                    | Initialize monitoring tool          |
+| `python main.py monitor`                                 | Monitor dark web (default keywords) |
+| `python main.py monitor -q "search term" -e ahmia torch` | Custom query with engines           |
+| `python main.py site http://example.onion`               | Monitor specific onion site         |
+| `python main.py patterns`                                | List all search patterns            |
+| `python main.py add-pattern "regex" -n "name"`           | Add custom regex                    |
+| `python main.py info`                                    | Show configuration info             |
+
+---
+
+## 🐍 Python API Reference
+
+```python
 from src.monitor import DarkWebMonitor
 
 # Initialize
@@ -197,7 +174,7 @@ results = monitor.monitor_dark_web(
     search_engines=['ahmia', 'torch']
 )
 
-# Monitor specific site
+# Monitor a specific onion site
 results = monitor.monitor_specific_site("http://example.onion")
 
 # Add custom pattern
@@ -205,88 +182,69 @@ monitor.add_search_pattern(r"\bphishing\b", "phishing")
 
 # Save results
 monitor.save_results(results)
+```
 
-═══════════════════════════════════════════════════════════════════════════════
+---
 
-🌐 DARK WEB SOURCES
-───────────────────────────────────────────────────────────────────────────────
+## 🌐 Dark Web Sources
 
-Search Engines:
-  ✓ Ahmia ..................... General search
-  ✓ Torch ..................... General search
-  ✓ NotEvil ................... Privacy-focused
-  ✓ DarkWeb Link .............. Directory
+| Type           | Name         | Description             |
+| -------------- | ------------ | ----------------------- |
+| Search Engine  | Ahmia        | General dark web search |
+| Search Engine  | Torch        | Tor-based search engine |
+| Search Engine  | NotEvil      | Privacy-focused index   |
+| Search Engine  | DarkWeb Link | Directory crawler       |
+| Knowledge Base | Hidden Wiki  | Dark web resource index |
 
-Knowledge Base:
-  ✓ Hidden Wiki ............... Dark web resources
+---
 
-═══════════════════════════════════════════════════════════════════════════════
+## ✅ Verification Checklist
 
-✅ VERIFICATION CHECKLIST
-───────────────────────────────────────────────────────────────────────────────
+* [x] Single master documentation file created
+* [x] All individual `.md` files removed
+* [x] All source code modules intact (7 files)
+* [x] Tests preserved and functional
+* [x] Examples verified
+* [x] Configuration files present
+* [x] CLI and API entry points working
+* [x] Directory size optimized
+* [x] Documentation complete (900+ lines)
 
-[✓] Single master documentation file created
-[✓] All individual .md files removed
-[✓] All source code modules intact (7 files)
-[✓] Tests preserved
-[✓] Examples working
-[✓] Configuration files present
-[✓] Entry points functional
-[✓] Project structure clean
-[✓] Directory size reduced
-[✓] All features documented in one place
+---
 
-═══════════════════════════════════════════════════════════════════════════════
+## 🧭 Next Steps
 
-🎯 NEXT STEPS
-───────────────────────────────────────────────────────────────────────────────
+1. **Open:** `DOCUMENTATION.md` – your master guide
+2. **Install:** `pip install -r requirements.txt`
+3. **Configure:** `cp .env.example .env`
+4. **Test:** `python examples.py`
+5. **Run:** `python main.py monitor`
 
-1. OPEN: DOCUMENTATION.md
-   Your one-stop guide for everything
+---
 
-2. INSTALL: pip install -r requirements.txt
-   Install all dependencies
+## 📌 Notes
 
-3. CONFIGURE: copy .env.example .env
-   Set up your configuration
+* 📄 **One documentation file** — no need to switch between multiple files
+* 🧭 Fully searchable and easy to maintain
+* 🧠 All configuration options and examples included
+* 🧩 All original functionality intact
 
-4. TEST: python examples.py
-   Verify everything works
+---
 
-5. USE: python main.py monitor
-   Start monitoring the dark web
+## 🎉 Project Complete
 
-═══════════════════════════════════════════════════════════════════════════════
+✅ **Status:** Ready to Use
+✅ **Documentation:** Centralized (1 file)
+✅ **Code:** Clean & Organized
+✅ **Usability:** CLI & API ready
+✅ **Purpose:** Production-Grade Dark Web Monitoring
 
-📌 IMPORTANT NOTES
-───────────────────────────────────────────────────────────────────────────────
+---
 
-✓ All documentation is now in ONE file: DOCUMENTATION.md
-✓ No need to jump between multiple files
-✓ Complete, comprehensive, searchable
-✓ Easy to share, backup, and maintain
-✓ All original functionality intact
-✓ All code examples included
-✓ All configuration options documented
+### 🏁 Start Here
 
-═══════════════════════════════════════════════════════════════════════════════
+📘 **Open:** `DOCUMENTATION.md`
+🧩 **Version:** `1.0.0`
 
-🎉 PROJECT COMPLETE
-───────────────────────────────────────────────────────────────────────────────
+---
 
-Status: ✅ READY TO USE
-
-Your Dark Web Monitoring Tool is:
-  ✓ Fully functional
-  ✓ Well documented (in 1 file)
-  ✓ Production ready
-  ✓ Clean and organized
-  ✓ Easy to maintain
-
-═══════════════════════════════════════════════════════════════════════════════
-
-👉 START HERE: Open DOCUMENTATION.md
-
-Version: 1.0.0 | Status: ✅ Production Ready | Date: November 12, 2025
-
-═══════════════════════════════════════════════════════════════════════════════
