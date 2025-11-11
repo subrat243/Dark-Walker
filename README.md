@@ -259,7 +259,7 @@ This project is licensed under the **MIT License**. See the [`LICENSE`](./LICENS
 - ❌ No liability or warranty
 - ⚠️ License and copyright notice required
 
-**Copyright © 2025 Subrat Panda** - All rights reserved under MIT License.
+**Copyright © 2025 Subrat243** - All rights reserved under MIT License.
 
 ---
 
