@@ -248,3 +248,18 @@ monitor.save_results(results)
 
 ---
 
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [`LICENSE`](./LICENSE) file for full details.
+
+**Key Terms:**
+- ✅ Commercial use permitted
+- ✅ Modification allowed  
+- ✅ Distribution permitted
+- ❌ No liability or warranty
+- ⚠️ License and copyright notice required
+
+**Copyright © 2025 Subrat Panda** - All rights reserved under MIT License.
+
+---
+
